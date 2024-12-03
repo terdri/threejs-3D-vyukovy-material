@@ -1,0 +1,20 @@
+{
+  "name": "bakalarka",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx vite",
+    "build": "parcel build index_bez prezky.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "three": "^0.168.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "vite": "^5.4.6"
+  }
+}
