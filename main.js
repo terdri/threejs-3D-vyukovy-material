@@ -138,19 +138,19 @@ const sound3 = new THREE.Audio(listener);
 
 // Načtení a příprava zvukových souborů
 const audioLoader = new THREE.AudioLoader();
-audioLoader.load('Camera Shutter1.mp3', function(buffer) {
+audioLoader.load('jzielke011__camera-shutters-125th-sec-medium_1.mp3', function(buffer) {
     sound1.setBuffer(buffer);
     sound1.setLoop(false);
-    sound1.setVolume(0.6);
+    sound1.setVolume(0.45);
 });
 
-audioLoader.load('Camera Shutter2.mp3', function(buffer) {
+audioLoader.load('jzielke011__camera-shutters-125th-sec-medium_2.mp3', function(buffer) {
     sound2.setBuffer(buffer);
     sound2.setLoop(false);
-    sound2.setVolume(0.6);
+    sound2.setVolume(0.45);
 });
 
-audioLoader.load('Button Click.mp3', function(buffer) {
+audioLoader.load('dster777__button.mp3', function(buffer) {
   sound3.setBuffer(buffer);
   sound3.setLoop(false);
   sound3.setVolume(0.5);
